@@ -1,0 +1,10 @@
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore Maven target directory
+target/
+
+# Ignore logs
+log/
+*.log
