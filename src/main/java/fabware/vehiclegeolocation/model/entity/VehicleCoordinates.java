@@ -1,5 +1,6 @@
-package fabware.vehiclegeolocation.entity;
+package fabware.vehiclegeolocation.model.entity;
 
+import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,11 +17,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-@ToString
-@EqualsAndHashCode
-@Getter
-@Setter
-@NoArgsConstructor
+@Data
 @Entity
 @Table(name = "vehicle_coordinates")
 public class VehicleCoordinates {

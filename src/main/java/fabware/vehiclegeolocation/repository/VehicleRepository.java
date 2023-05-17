@@ -1,6 +1,6 @@
 package fabware.vehiclegeolocation.repository;
 
-import fabware.vehiclegeolocation.entity.Vehicle;
+import fabware.vehiclegeolocation.model.entity.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

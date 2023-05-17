@@ -11,7 +11,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import java.util.Optional;
 
 @ControllerAdvice
-public class RestResponseEntityExceptionHandler extends ResponseEntityExceptionHandler {
+public class RestResponseEntityExceptionHandlerV1 extends ResponseEntityExceptionHandler {
 
   private final String DEFAULT_ERROR = "Oops, something goes wrong!";
 

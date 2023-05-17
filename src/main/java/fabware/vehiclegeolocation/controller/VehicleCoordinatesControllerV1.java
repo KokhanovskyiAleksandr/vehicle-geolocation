@@ -7,22 +7,18 @@ import fabware.vehiclegeolocation.validation.ValidGPSCoordinate;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
 @Validated
 @RestController
-@RequestMapping("/vehicles")
-public class VehicleCoordinatesController {
+@RequestMapping("/api/v1/vehicles")
+public class VehicleCoordinatesControllerV1 {
 
   private final VehicleCoordinatesService vehicleCoordinatesService;
 
-  public VehicleCoordinatesController(VehicleCoordinatesService vehicleCoordinatesService) {
+  public VehicleCoordinatesControllerV1(VehicleCoordinatesService vehicleCoordinatesService) {
     this.vehicleCoordinatesService = vehicleCoordinatesService;
   }
 

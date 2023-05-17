@@ -1,7 +1,7 @@
 package fabware.vehiclegeolocation.mapper;
 
 import fabware.vehiclegeolocation.dto.VehicleDto;
-import fabware.vehiclegeolocation.entity.Vehicle;
+import fabware.vehiclegeolocation.model.entity.Vehicle;
 import lombok.experimental.UtilityClass;
 
 import java.util.List;

@@ -2,14 +2,13 @@ package fabware.vehiclegeolocation.service;
 
 import fabware.vehiclegeolocation.dto.TriangleDto;
 import fabware.vehiclegeolocation.dto.VehicleDto;
-import fabware.vehiclegeolocation.entity.Vehicle;
+import fabware.vehiclegeolocation.model.entity.Vehicle;
 import fabware.vehiclegeolocation.mapper.VehicleMapper;
 import fabware.vehiclegeolocation.repository.VehicleCoordinatesRepository;
 import fabware.vehiclegeolocation.repository.VehicleRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Map;
 
 @Service
 public class VehicleCoordinatesService {
